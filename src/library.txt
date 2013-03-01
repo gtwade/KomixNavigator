@@ -1,0 +1,5 @@
+Dilbert,http://feed.dilbert.com/dilbert/daily_strip
+xkcd,http://xkcd.com/rss.xml
+Sheldon,http://www.sheldoncomics.com/index.xml
+StarSlip,http://feeds.feedburner.com/Starslip?format=xml
+Savage Chickens,http://www.savagechickens.com/feed
