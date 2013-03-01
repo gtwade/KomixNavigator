@@ -1,0 +1,32 @@
+KOMIXNAVIGATOR README
+
+KomixNavigator is a Java-based application for viewing a set of web comics by viewing their RSS feeds. There are many programs that access RSS feeds – Google Reader is one web-based example, and the most excellent of the lot, in my opinion – yet to this date there doesn’t seem to be one dedicated to viewing web comics.
+
+The environment for the KomixNavigator is any computer with the latest Java installed.
+
+Disk usage is approximately 12 KB for the application and more for the downloaded images.
+
+The jar file consists of the following files:
+    - MainReader.class and supporting classes – the GUI.
+    - ComicFeed.class – handles all RSS feed information.
+    - FileService.class – handles all file activities, including downloading images for viewing.
+    - library.txt – a flat file for storing RSS feed info for your comic library.
+    
+Known Issues:
+•	KomixNavigator does not load the list of entries properly. Entries can be selected from thin blank spaces above the date list.
+•	Bugs with the list object will cause the program to crash when an entry date is selected.
+
+Future improvements:
+•	Tweak GUI.
+•	Improved Comics List descriptions.
+•	Ability to read any meta text that came with the image (xkcd always has that).
+•	Ability to add feeds (must provide RSS feed link validation).
+•	Add ability to mark favorite comics.
+•	Save individual comics.
+•	Keep track of date of last access and have option to only show the latest entries.
+•	List comics by comic title or by all.
+•	Caching image files to for quicker viewing.
+•	Move to a database model (must include an import to db utility).
+•	Import/export library list.
+•	Browser-based?
+
